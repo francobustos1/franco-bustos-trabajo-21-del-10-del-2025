@@ -51,3 +51,4 @@ while (negativo <= 0) {
   console.log("El valor del numero es: " + negativo);
   negativo--;
 }
+console.log("fin del script");
