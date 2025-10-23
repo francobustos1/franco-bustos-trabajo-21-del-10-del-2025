@@ -1,4 +1,4 @@
-console.log("inicio del script");
+//inicio del primer ejercicio del script
 
 console.log("que tal");
 
@@ -32,11 +32,11 @@ switch (edad) {
     break;
 }
 
-for (let positivo = 0; positivo < 0; positivo++) {
+for (let positivo = 0; positivo > 0; positivo++) {
   console.log("El valor de positivo es: " + positivo);
 }
 
-for (let negativo = 0; negativo > 0; negativo--) {
+for (let negativo = 0; negativo < 0; negativo--) {
   console.log("El valor de negativo es: " + negativo);
 }
 
@@ -50,10 +50,11 @@ let negativo = 0;
 while (negativo <= 0) {
   console.log("El valor del numero es: " + negativo);
   negativo--;
-}
-console.log("fin del script");
 
-console.log("inicio del segundo script");
+//fin del primer ejercicio del script
+
+//inicio del segundo ejercicio del script
+
 
 function saludar(franco) {
   return "Hola " + franco;
@@ -67,4 +68,5 @@ console.log(suma(10, 5));
 const resta = (c, d) => c - d;
 console.log(resta(10, 5));
 
-console.log("fin del segundo script");
+//fin del segundo ejercicio del script
+}
