@@ -52,3 +52,19 @@ while (negativo <= 0) {
   negativo--;
 }
 console.log("fin del script");
+
+console.log("inicio del segundo script");
+
+function saludar(franco) {
+  return "Hola " + franco;
+}
+
+const suma = function (a, b) {
+  return a + b;
+}
+console.log(suma(10, 5));
+
+const resta = (c, d) => c - d;
+console.log(resta(10, 5));
+
+console.log("fin del segundo script");
